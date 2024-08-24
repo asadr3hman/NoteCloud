@@ -11,5 +11,39 @@
 
 ## Project Structure
 
-The project is structured as follows:
+- **client/**: Contains the front-end code for the application.
+- **server/**: Contains the back-end code and API routes.
 
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/notecloud.git
+
+2. Install dependencies for both client and server:
+
+   ```bash
+   cd NoteCloud/client
+   npm install
+
+   ```bash
+   cd ../server
+   npm install
+3. Create a .env file in the server directory with your environment variables.
+
+4. Start the server and client:
+### Server:
+   ```bash
+   cd server
+   npm start
+```
+
+### Client:
+
+   ```bash
+   cd ../client
+   npm start
+```
+
+5. Open your browser and go to http://localhost:3000 to use the app.
